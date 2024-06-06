@@ -5,25 +5,25 @@ The Riemann Zeta Function is an important concept in mathematics, particularly i
 ### 1. Series and Summation
 
 Imagine adding up an infinite series of fractions. For example:
-+++math
+```math
 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
-+++
+```
 This series adds smaller and smaller fractions as you go on.
 
 ### 2. Generalizing the Series
 
 The Riemann Zeta Function generalizes this idea. Instead of just adding the simple fractions, it raises the denominators to a power \( s \). So the series looks like this:
-+++math
+```math
 \zeta(s) = 1 + \frac{1}{2^s} + \frac{1}{3^s} + \frac{1}{4^s} + \cdots
-+++
+```
 Here, \( s \) can be any complex number, written as \( s = a + bi \) where \( a \) and \( b \) are real numbers.
 
 ### 3. Understanding \( s \)
 
 When \( s \) is a real number greater than 1, the series converges to a finite sum. For example, if \( s = 2 \):
-+++math
+```math
 \zeta(2) = 1 + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} + \cdots = 1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots
-+++
+```
 This converges to a specific number (around 1.6449).
 
 ### 4. Special Cases
@@ -31,9 +31,9 @@ This converges to a specific number (around 1.6449).
 For different values of \( s \), the series converges to different sums. For example, \( \zeta(3) \) converges to a number around 1.202.
 
 If \( s = 1 \), the series is the harmonic series, which diverges (grows without bound):
-+++math
+```math
 \zeta(1) = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
-+++
+```
 
 ### 5. Complex Numbers
 
@@ -46,9 +46,9 @@ If you imagine the complex plane, where the horizontal axis is the real part of 
 ### 7. Significance in Number Theory
 
 The zeta function encodes information about prime numbers. For example, Euler discovered that:
-+++math
+```math
 \zeta(s) = \prod_{p \text{ prime}} \left( 1 - \frac{1}{p^s} \right)^{-1}
-+++
+```
 This product over primes shows a deep connection between the zeta function and the distribution of prime numbers.
 
 ### 8. Critical Line and Hypothesis
