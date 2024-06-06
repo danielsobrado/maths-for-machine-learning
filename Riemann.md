@@ -55,4 +55,3 @@ This product over primes shows a deep connection between the zeta function and t
 
 The famous Riemann Hypothesis posits that all non-trivial zeros of \( \zeta(s) \) lie on the "critical line" where the real part of \( s \) is \( \frac{1}{2} \).
 
-In essence, the Riemann Zeta Function starts as a simple series of fractions raised to a power, but it unfolds into a complex and rich structure that reveals profound insights about the prime numbers and the nature of numbers themselves.
